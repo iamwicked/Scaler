@@ -1,0 +1,259 @@
+/* Global colors */
+:root {
+  --primary-color: #007bff; /* Primary color (blue) */
+  --secondary-color: #6c757d; /* Secondary color (gray) */
+  --success-color: #28a745; /* Success color (green) */
+  --danger-color: #dc3545; /* Danger color (red) */
+  --warning-color: #ffc107; /* Warning color (yellow) */
+  --info-color: #17a2b8; /* Info color (teal) */
+  --dark-color: #000000; /* Dark color (black) */
+  --light-color: #ffffff; /* Light color (white) */
+}
+
+/* Reset CSS */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: var(--dark-color); /* Dark background color */
+  color: var(--light-color); /* Text color */
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navigation bar styles */
+.navbar {
+  background-color: var(--dark-color); /* Dark background color */
+  color: var(--light-color); /* Text color */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: var(--light-color) !important; /* Text color */
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+  color: var(--light-color); /* Text color on hover */
+}
+
+/* Main content styles */
+.main-content {
+  padding-top: 20px;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--primary-color); /* Primary color */
+  color: var(--light-color); /* Text color */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade of primary color on hover */
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color); /* Secondary color */
+  color: var(--light-color); /* Text color */
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268; /* Darker shade of secondary color on hover */
+}
+
+.btn-success {
+  background-color: var(--success-color); /* Success color */
+  color: var(--light-color); /* Text color */
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Darker shade of success color on hover */
+}
+
+.btn-danger {
+  background-color: var(--danger-color); /* Danger color */
+  color: var(--light-color); /* Text color */
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Darker shade of danger color on hover */
+}
+
+.btn-warning {
+  background-color: var(--warning-color); /* Warning color */
+  color: var(--light-color); /* Text color */
+}
+
+.btn-warning:hover {
+  background-color: #d39e00; /* Darker shade of warning color on hover */
+}
+
+.btn-info {
+  background-color: var(--info-color); /* Info color */
+  color: var(--light-color); /* Text color */
+}
+
+.btn-info:hover {
+  background-color: #138496; /* Darker shade of info color on hover */
+}
+
+/* Card styles */
+.card {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: var(--primary-color); /* Focus color */
+  outline: none;
+}
+
+/* Alert styles */
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-danger {
+  background-color: #f8d7da; /* Danger background color */
+  border-color: #f5c6cb; /* Danger border color */
+  color: #721c24; /* Danger text color */
+}
+
+.alert-danger a {
+  color: #721c24; /* Danger link color */
+}
+
+.alert-danger hr {
+  border-top-color: #f1b0b7; /* Danger HR color */
+}
+
+/* Footer styles */
+.footer {
+  background-color: var(--dark-color); /* Dark background color */
+  color: var(--light-color); /* Text color */
+  padding: 20px 0;
+  text-align: center;
+}
