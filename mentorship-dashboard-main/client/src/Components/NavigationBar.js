@@ -1,6 +1,7 @@
 import { Nav, Navbar, Container, NavDropdown } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap"; 
+import '../index.css';
 
 const NavigationBar = () => {
   // Get the mentor value from localStorage
@@ -16,7 +17,7 @@ const NavigationBar = () => {
 
   return (
     <Navbar
-      bg="primary"
+      bg="black"
       variant="dark"
       expand="lg"
       style={{ marginBottom: "40px" }}

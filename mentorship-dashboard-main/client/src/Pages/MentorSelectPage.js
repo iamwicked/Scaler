@@ -90,6 +90,7 @@ const MentorSelectPage = () => {
                 <Button
                   className="close"
                   variant="danger"
+                  color = "black"
                   onClick={() => setShow(false)}
                 >
                   <span>&times;</span>

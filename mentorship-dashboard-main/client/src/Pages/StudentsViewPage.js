@@ -86,7 +86,7 @@ const StudentsViewPage = () => {
       <Container fluid className="mt-3">
         <ButtonGroup className="mb-3 gap-2">
           <Button
-            variant="outline-primary"
+            variant="primary"
             className={evaluatedFilter === "all" ? "active" : ""}
             onClick={() => {
               setEvaluatedFilter("all");
